@@ -6,12 +6,13 @@
   "scripts": {
     "start:build": "tsc -w",
     "start:run": "nodemon build/index.js",
-    "start": "concurrently npm:start:*" 
+    "start": "concurrently npm:start:*"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/node": "^15.12.4",
     "concurrently": "^6.2.0",
     "nodemon": "^2.0.7"
   }
