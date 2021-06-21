@@ -12,6 +12,7 @@ type MatchData = [
     string 
 ];
 
+// Inheritance version
 export class MatchReader extends CsvFileReader<MatchData> {
     mapRow(row: string[]): MatchData {
         return [

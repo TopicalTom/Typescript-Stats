@@ -1,5 +1,6 @@
 import fs from 'fs';
 
+// Inheritance Version
 export abstract class CsvFileReader<T> {
     data: T[] = [];
     constructor (public filename: string) {}
