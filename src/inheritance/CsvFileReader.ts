@@ -1,3 +1,4 @@
+/*
 import fs from 'fs';
 
 // Inheritance Version
@@ -17,3 +18,4 @@ export abstract class CsvFileReader<T> {
             .map(this.mapRow);
     }
 }
+*/
